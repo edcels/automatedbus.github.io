@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title> HELP</title>
+</head>
+<style>
+
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'alfa Slab One', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,75,195,1) 26%, rgba(26,30,223,1) 46%, rgba(72,72,213,1) 68%, rgba(0,212,255,1) 100%)
+}
+.container {
+    position: relative;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+.container .card{
+    width: 308px;
+    position: relative;
+    height: 400px;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3 ease-in-out;
+    margin-top: 5%;
+    border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px grey;
+  margin: 20px;
+}
+.container .card .imgBx{
+    position: relative;
+    width: 460px;
+    height: 260px;
+    top:  -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+}
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.imgBx:hover img {
+    transform: scale(1.1);
+    height: 190px;
+}
+img{
+    height: 180;
+    width: 205;
+}
+a.button {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  position: absolute;
+  top: 80px;
+  right: 630px;
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px grey;
+}
+</style>
+<a href="home.html" class="button" id="button1">HOME</a>
+<body>
+    <div class ="container">
+        <div class="card">
+            <div cass="imgBx">
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+            <img src="gmail.png">
+            </a>
+            <h1>Contact us with Gmail</h1>
+            <h3<br>Just clich the image above</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class ="container">
+        <div class="card">
+            <div cass="imgBx">
+            <a href="https://www.facebook.com/">
+            <img src="fb.png">
+            </a>
+            <h1>Contact us with Facebook Page</h1>
+            <h3><br>Just clich the image above</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class ="container">
+        <div class="card">
+            <div cass="imgBx">
+            <a href="tel:09511427216">
+            <img src="cp.png">
+            </a>
+            <h1>Contact us with Cellphone Number</h1>
+            <h3><br>Just clich the image above</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
